@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <aside>
+            <div class="queueContainer">
+                <div class="queueText">
+                    <h2>Kölista</h2>
+                    <h3 id="queueError"></h3>
+                    <label for="queueInput">Gästens namn</label>
+                    <input type="text" id="queueInput" placeholder="Gästnamn">
+                    <label for="queueInputNum">Antal personer</label>
+                    <input type="number" id="queueInputNum" placeholder="antal">
+                    <button id="queueButton">Lägg till i kö</button>
+                </div>
+                <div id="queue">
+                    <p id="queueEmpty">Det finns ingen i kön just nu..</p>
+                </div>
+            </div>
+        </aside>
+        <section>
+            <div class="darkBackground" id="popUpContainer">
+                <h3 id="error"></h3>
+                <div class="popup" id="addToTable">
+                    <h2>Ange gästnamn eller välj från kön</h2>
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="Gästnamn" autofocus tabindex="0">
+                    <button id="bookButton">Boka på valt bord</button>
+                </div>
+                <div class="popup" id="showTable">
+                    <h2>Detta bord är bokat av</h2>
+                    <h3 id="bookingName"></h3>
+                    <button id="removeButton">Ta bort bokning</button>
+                </div>
+                <div class="popup" id="removeQueue">
+                    <h2>Ta bort?</h2>
+                    <button id="removeQueueButton">Ta bort person</button>
+                </div>
+            </div>
+            <div class="messageContainer">
+                <h1>Välj ett bord på kartan för att börja</h1>
+            </div>
+            <div class="mapContainer">
+                <img src="source/floorplan.png" alt="">
+                <article id="0" class="smallRound">1</article>
+                <article id="1" class="smallRound">2</article>
+                <article id="2" class="smallRound">3</article>
+                <article id="3" class="smallRound">4</article>
+                <article id="4" class="smallRound">5</article>
+                <article id="5" class="smallRound">6</article>
+                <article id="6" class="square">7</article>
+                <article id="7" class="square">8</article>
+                <article id="8" class="square">9</article>
+                <article id="9" class="square">10</article>
+                <article id="10" class="smallSquare">11</article>
+                <article id="11" class="smallSquare">12</article>
+                <article id="12" class="round">13</article>
+                <article id="13" class="smallSquare">14</article>
+                <article id="14" class="smallSquare">15</article>
+                <article id="15" class="smallSquare">16</article>
+            </div>
+        </section>
+    </main>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>

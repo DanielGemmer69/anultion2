@@ -1,0 +1,24 @@
+-Stor boka knapp för att personalen lättare ska kunna trycka på den
+
+-planlösningen ska infogas i programmet då personalen inte kommer ihåg alla bord
+
+-knapp för att ångra senaste borttagningen
+
+-färg på bordetr som symboliserar om det är bokat eller obokat, använd röd och blå, då dessa är bättre för färgblinda (https://www.datylon.com/blog/data-visualization-for-colorblind-readers#:~:text=The%20first%20rule%20of%20making,out%20of%20these%20two%20hues.)
+
+-när man trycker på bordet ska man kunna se information om vilka som sitter där om bordet är occupied och kunna avallokera bordet
+
+Om datorn som programmet skulle ha använts på inte hade haft en touch skärm så hade jag använts mig av popups som visas när man hovrar över borden
+
+-Man ska kunna lägga personer i kö även om det finns bord lediga
+
+jag la till en preview på vilket bord man i talande stund arbetar med
+
+Jag la till autofokus på elementet så att man ska slippa klicka på input fieldet när man bokar ett bord
+
+
+antaganden:
+
+att surfplattan/datorn är i landscape mode
+
+att surfplattan/datorn inte kommer ändra storlek på webbläsarfönstret
